@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards de Biologia</title>
+  <link rel="stylesheet" href="style.css"> <!-- Conectar com um arquivo CSS externo, se necessário -->
+</head>
+<body>
+  <div class="flashcards-container">
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é fotossíntese?</p>
+      </div>
+      <div class="back">
+        <p>A fotossíntese é o processo no qual as plantas convertem luz solar em energia química.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é a célula?</p>
+      </div>
+      <div class="back">
+        <p>A célula é a unidade estrutural e funcional de todos os organismos vivos.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que são genes?</p>
+      </div>
+      <div class="back">
+        <p>Genes são segmentos de DNA que contêm as instruções para a produção de proteínas.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é mitose?</p>
+      </div>
+      <div class="back">
+        <p>Mitose é o processo de divisão celular que resulta em duas células filhas idênticas.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é respiração celular?</p>
+      </div>
+      <div class="back">
+        <p>Respiração celular é o processo pelo qual as células convertem glicose e oxigênio em energia.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é um ecossistema?</p>
+      </div>
+      <div class="back">
+        <p>Ecossistema é um conjunto de seres vivos que interagem entre si e com o ambiente.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é evolução?</p>
+      </div>
+      <div class="back">
+        <p>Evolução é o processo de mudança nas características genéticas de uma população ao longo do tempo.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que é uma cadeia alimentar?</p>
+      </div>
+      <div class="back">
+        <p>Cadeia alimentar é a sequência de organismos que se alimentam uns dos outros em um ecossistema.</p>
+      </div>
+    </div>
+
+    <div class="flashcard" onclick="flipCard(this)">
+      <div class="front">
+        <p>O que são hormônios?</p>
+      </div>
+      <div class="back">
+        <p>Hormônios são substâncias químicas que regulam funções no organismo, como crescimento e metabolismo.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Função para virar o cartão
+    function flipCard(card) {
+      card.classList.toggle('flipped');
+    }
+  </script>
+</body>
+</html>
